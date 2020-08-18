@@ -1,6 +1,11 @@
 //
-// Created by Pleiades Lin on 2020-08-18.
-//
+// Created by Lin Zhihao
+/*
+ * This file implements simple linked list.
+ * Supported:
+ * 1. Node constructors.
+ * 2. List copy.
+ */
 
 #ifndef MY_STL_LINKED_LIST_H
 #define MY_STL_LINKED_LIST_H

@@ -1,11 +1,18 @@
 //
-// Created by Pleiades Lin on 2020-08-18.
-//
+// Created by Lin Zhihao
+/*
+ * This file implements a stack template.
+ * Base: linked list.
+ * Supported:
+ *  1. Constructor(default, copy), destructor, and "=" operator.
+ *  2. Size of the stack is dynamically recorded.
+ *  3. Push and pop operations.
+ *  4. Access to the top element.
+ */
 
 #ifndef MY_STL_STACK_H
 #define MY_STL_STACK_H
-
-#include "linked_list.h"
+#include "linked_list.hpp"
 
 template<typename Type_T>
 class stack{
@@ -20,10 +27,13 @@ public:
     stack();
 
     //Copy constructor.
-    stack(stack<Type_T> &src);
+    stack(const stack<Type_T> &src);
 
     //Destructor.
     ~stack();
+
+    //"=" overload
+    stack<Type_T>& operator = (const stack<Type_T> &src);
 
     //Return if the stack is empty.
     bool is_empty();

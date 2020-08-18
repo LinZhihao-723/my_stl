@@ -15,7 +15,7 @@ stack<Type_T>::stack() {
 }
 
 template<typename Type_T>
-stack<Type_T>::stack(stack<Type_T> &src) {
+stack<Type_T>::stack(const stack<Type_T> &src) {
     top_node = copy_list(src.top_node);
     stack_size = src.stack_size;
 }
@@ -66,6 +66,16 @@ void stack<Type_T>::empty() {
         top_node = temp;
     }
     stack_size = 0;
+}
+
+template<typename Type_T>
+stack<Type_T> &stack<Type_T>::operator=(const stack<Type_T> &src) {
+    if(this != &src) {
+        empty();
+        top_node = copy_list(src.top_node);
+        stack_size = src.stack_size;
+    }
+    return (*this);
 }
 
 #endif //MY_STL_STACK_HPP

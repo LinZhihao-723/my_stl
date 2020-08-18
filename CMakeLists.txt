@@ -3,4 +3,4 @@ project(my_stl)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(my_stl main.cpp constant.h linked_list.h stack.h stack.hpp linked_list.hpp)
+add_executable(my_stl main.cpp constant.h linked_list.h stack.h stack.hpp linked_list.hpp queue.h queue.hpp)

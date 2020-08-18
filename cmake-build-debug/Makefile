@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/renaissance/Desktop/my_stl
+CMAKE_SOURCE_DIR = /Users/renaissance/Desktop/my_stl_container
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/renaissance/Desktop/my_stl/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/renaissance/Desktop/my_stl_container/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/renaissance/Desktop/my_stl/cmake-build-debug/CMakeFiles /Users/renaissance/Desktop/my_stl/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/renaissance/Desktop/my_stl_container/cmake-build-debug/CMakeFiles /Users/renaissance/Desktop/my_stl_container/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/renaissance/Desktop/my_stl/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/renaissance/Desktop/my_stl_container/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,33 +123,6 @@ my_stl/fast:
 	$(MAKE) -f CMakeFiles/my_stl.dir/build.make CMakeFiles/my_stl.dir/build
 .PHONY : my_stl/fast
 
-linked_list.o: linked_list.cpp.o
-
-.PHONY : linked_list.o
-
-# target to build an object file
-linked_list.cpp.o:
-	$(MAKE) -f CMakeFiles/my_stl.dir/build.make CMakeFiles/my_stl.dir/linked_list.cpp.o
-.PHONY : linked_list.cpp.o
-
-linked_list.i: linked_list.cpp.i
-
-.PHONY : linked_list.i
-
-# target to preprocess a source file
-linked_list.cpp.i:
-	$(MAKE) -f CMakeFiles/my_stl.dir/build.make CMakeFiles/my_stl.dir/linked_list.cpp.i
-.PHONY : linked_list.cpp.i
-
-linked_list.s: linked_list.cpp.s
-
-.PHONY : linked_list.s
-
-# target to generate assembly for a file
-linked_list.cpp.s:
-	$(MAKE) -f CMakeFiles/my_stl.dir/build.make CMakeFiles/my_stl.dir/linked_list.cpp.s
-.PHONY : linked_list.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -177,33 +150,6 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/my_stl.dir/build.make CMakeFiles/my_stl.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-stack.o: stack.cpp.o
-
-.PHONY : stack.o
-
-# target to build an object file
-stack.cpp.o:
-	$(MAKE) -f CMakeFiles/my_stl.dir/build.make CMakeFiles/my_stl.dir/stack.cpp.o
-.PHONY : stack.cpp.o
-
-stack.i: stack.cpp.i
-
-.PHONY : stack.i
-
-# target to preprocess a source file
-stack.cpp.i:
-	$(MAKE) -f CMakeFiles/my_stl.dir/build.make CMakeFiles/my_stl.dir/stack.cpp.i
-.PHONY : stack.cpp.i
-
-stack.s: stack.cpp.s
-
-.PHONY : stack.s
-
-# target to generate assembly for a file
-stack.cpp.s:
-	$(MAKE) -f CMakeFiles/my_stl.dir/build.make CMakeFiles/my_stl.dir/stack.cpp.s
-.PHONY : stack.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -213,15 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... my_stl"
-	@echo "... linked_list.o"
-	@echo "... linked_list.i"
-	@echo "... linked_list.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... stack.o"
-	@echo "... stack.i"
-	@echo "... stack.s"
 .PHONY : help
 
 

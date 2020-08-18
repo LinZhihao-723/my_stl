@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/renaissance/Desktop/my_stl
+CMAKE_SOURCE_DIR = /Users/renaissance/Desktop/my_stl_container
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/renaissance/Desktop/my_stl/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/renaissance/Desktop/my_stl_container/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/my_stl.dir/depend.make
@@ -59,58 +59,28 @@ include CMakeFiles/my_stl.dir/flags.make
 
 CMakeFiles/my_stl.dir/main.cpp.o: CMakeFiles/my_stl.dir/flags.make
 CMakeFiles/my_stl.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/renaissance/Desktop/my_stl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/my_stl.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my_stl.dir/main.cpp.o -c /Users/renaissance/Desktop/my_stl/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/renaissance/Desktop/my_stl_container/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/my_stl.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my_stl.dir/main.cpp.o -c /Users/renaissance/Desktop/my_stl_container/main.cpp
 
 CMakeFiles/my_stl.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_stl.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/renaissance/Desktop/my_stl/main.cpp > CMakeFiles/my_stl.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/renaissance/Desktop/my_stl_container/main.cpp > CMakeFiles/my_stl.dir/main.cpp.i
 
 CMakeFiles/my_stl.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_stl.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/renaissance/Desktop/my_stl/main.cpp -o CMakeFiles/my_stl.dir/main.cpp.s
-
-CMakeFiles/my_stl.dir/stack.cpp.o: CMakeFiles/my_stl.dir/flags.make
-CMakeFiles/my_stl.dir/stack.cpp.o: ../stack.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/renaissance/Desktop/my_stl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/my_stl.dir/stack.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my_stl.dir/stack.cpp.o -c /Users/renaissance/Desktop/my_stl/stack.cpp
-
-CMakeFiles/my_stl.dir/stack.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_stl.dir/stack.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/renaissance/Desktop/my_stl/stack.cpp > CMakeFiles/my_stl.dir/stack.cpp.i
-
-CMakeFiles/my_stl.dir/stack.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_stl.dir/stack.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/renaissance/Desktop/my_stl/stack.cpp -o CMakeFiles/my_stl.dir/stack.cpp.s
-
-CMakeFiles/my_stl.dir/linked_list.cpp.o: CMakeFiles/my_stl.dir/flags.make
-CMakeFiles/my_stl.dir/linked_list.cpp.o: ../linked_list.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/renaissance/Desktop/my_stl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/my_stl.dir/linked_list.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my_stl.dir/linked_list.cpp.o -c /Users/renaissance/Desktop/my_stl/linked_list.cpp
-
-CMakeFiles/my_stl.dir/linked_list.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_stl.dir/linked_list.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/renaissance/Desktop/my_stl/linked_list.cpp > CMakeFiles/my_stl.dir/linked_list.cpp.i
-
-CMakeFiles/my_stl.dir/linked_list.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_stl.dir/linked_list.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/renaissance/Desktop/my_stl/linked_list.cpp -o CMakeFiles/my_stl.dir/linked_list.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/renaissance/Desktop/my_stl_container/main.cpp -o CMakeFiles/my_stl.dir/main.cpp.s
 
 # Object files for target my_stl
 my_stl_OBJECTS = \
-"CMakeFiles/my_stl.dir/main.cpp.o" \
-"CMakeFiles/my_stl.dir/stack.cpp.o" \
-"CMakeFiles/my_stl.dir/linked_list.cpp.o"
+"CMakeFiles/my_stl.dir/main.cpp.o"
 
 # External object files for target my_stl
 my_stl_EXTERNAL_OBJECTS =
 
 my_stl: CMakeFiles/my_stl.dir/main.cpp.o
-my_stl: CMakeFiles/my_stl.dir/stack.cpp.o
-my_stl: CMakeFiles/my_stl.dir/linked_list.cpp.o
 my_stl: CMakeFiles/my_stl.dir/build.make
 my_stl: CMakeFiles/my_stl.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/renaissance/Desktop/my_stl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable my_stl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/renaissance/Desktop/my_stl_container/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable my_stl"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/my_stl.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -123,6 +93,6 @@ CMakeFiles/my_stl.dir/clean:
 .PHONY : CMakeFiles/my_stl.dir/clean
 
 CMakeFiles/my_stl.dir/depend:
-	cd /Users/renaissance/Desktop/my_stl/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/renaissance/Desktop/my_stl /Users/renaissance/Desktop/my_stl /Users/renaissance/Desktop/my_stl/cmake-build-debug /Users/renaissance/Desktop/my_stl/cmake-build-debug /Users/renaissance/Desktop/my_stl/cmake-build-debug/CMakeFiles/my_stl.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/renaissance/Desktop/my_stl_container/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/renaissance/Desktop/my_stl_container /Users/renaissance/Desktop/my_stl_container /Users/renaissance/Desktop/my_stl_container/cmake-build-debug /Users/renaissance/Desktop/my_stl_container/cmake-build-debug /Users/renaissance/Desktop/my_stl_container/cmake-build-debug/CMakeFiles/my_stl.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/my_stl.dir/depend
 
