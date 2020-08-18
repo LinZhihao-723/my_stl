@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/renaissance/Desktop/my_stl/main.cpp" "/Users/renaissance/Desktop/my_stl/cmake-build-debug/CMakeFiles/my_stl.dir/main.cpp.o"
+  "/Users/renaissance/Desktop/my_stl/stack.cpp" "/Users/renaissance/Desktop/my_stl/cmake-build-debug/CMakeFiles/my_stl.dir/stack.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

@@ -80,7 +80,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/renaissance/Desktop/my_stl/constant.h">
+			<Option target="my_stl"/>
+		</Unit>
+		<Unit filename="/Users/renaissance/Desktop/my_stl/linked_list.h">
+			<Option target="my_stl"/>
+		</Unit>
 		<Unit filename="/Users/renaissance/Desktop/my_stl/main.cpp">
+			<Option target="my_stl"/>
+		</Unit>
+		<Unit filename="/Users/renaissance/Desktop/my_stl/stack.cpp">
+			<Option target="my_stl"/>
+		</Unit>
+		<Unit filename="/Users/renaissance/Desktop/my_stl/stack.h">
 			<Option target="my_stl"/>
 		</Unit>
 		<Unit filename="/Users/renaissance/Desktop/my_stl/CMakeLists.txt">
