@@ -12,14 +12,13 @@
 
 #ifndef MY_STL_STACK_H
 #define MY_STL_STACK_H
-#include "ground_level_structure_headers.h"
+#include "linked_list.hpp"
 
 template<typename Type_T>
 class stack{
 private:
     //private pointer which maintains a linked list.
     List_Node<Type_T>* top_node;
-
     //recording the size of the stack
     unsigned int stack_size;
 public:

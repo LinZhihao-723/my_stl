@@ -12,7 +12,8 @@
 
 #ifndef MY_STL_QUEUE_H
 #define MY_STL_QUEUE_H
-#include "ground_level_structure_headers.h"
+#include "linked_list.hpp"
+#include "guard.h"
 
 template<typename Type_T>
 class queue{

@@ -21,8 +21,7 @@
 #ifndef MY_STL_RED_BLACK_TREE_H
 #define MY_STL_RED_BLACK_TREE_H
 
-#include "ground_level_structure_headers.h"
-#include "my_stl_container_headers.h"
+#include "queue.hpp"
 
 #define BLACK false
 #define RED true
@@ -67,7 +66,7 @@ struct TreeNode {
 };
 
 template<typename Type_T>
-class Red_Black_Tree {
+class Red_Black_Tree{
 private:
 
     //The root of the tree.

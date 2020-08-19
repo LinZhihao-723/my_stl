@@ -15,7 +15,6 @@ template<typename Type_T>
 bool Red_Black_Tree<Type_T>::rotate_left(TreeNode<Type_T> *current) {
     if(current->right == nullptr) return false;
     TreeNode<Type_T>* right_side = current->right;
-
     //Setting the parent node
     if(current->parent == nullptr) {
         root = right_side;

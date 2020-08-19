@@ -5,6 +5,7 @@
 #ifndef MY_STL_RBT_TEST_H
 #define MY_STL_RBT_TEST_H
 #include <iostream>
+#include "linked_list.hpp"
 #include "red_black_tree.hpp"
 
 void rbt_test();
