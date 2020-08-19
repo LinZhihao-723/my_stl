@@ -123,33 +123,6 @@ my_stl/fast:
 	$(MAKE) -f CMakeFiles/my_stl.dir/build.make CMakeFiles/my_stl.dir/build
 .PHONY : my_stl/fast
 
-RBT_Test.o: RBT_Test.cpp.o
-
-.PHONY : RBT_Test.o
-
-# target to build an object file
-RBT_Test.cpp.o:
-	$(MAKE) -f CMakeFiles/my_stl.dir/build.make CMakeFiles/my_stl.dir/RBT_Test.cpp.o
-.PHONY : RBT_Test.cpp.o
-
-RBT_Test.i: RBT_Test.cpp.i
-
-.PHONY : RBT_Test.i
-
-# target to preprocess a source file
-RBT_Test.cpp.i:
-	$(MAKE) -f CMakeFiles/my_stl.dir/build.make CMakeFiles/my_stl.dir/RBT_Test.cpp.i
-.PHONY : RBT_Test.cpp.i
-
-RBT_Test.s: RBT_Test.cpp.s
-
-.PHONY : RBT_Test.s
-
-# target to generate assembly for a file
-RBT_Test.cpp.s:
-	$(MAKE) -f CMakeFiles/my_stl.dir/build.make CMakeFiles/my_stl.dir/RBT_Test.cpp.s
-.PHONY : RBT_Test.cpp.s
-
 guard.o: guard.cpp.o
 
 .PHONY : guard.o
@@ -213,9 +186,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... my_stl"
-	@echo "... RBT_Test.o"
-	@echo "... RBT_Test.i"
-	@echo "... RBT_Test.s"
 	@echo "... guard.o"
 	@echo "... guard.i"
 	@echo "... guard.s"

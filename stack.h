@@ -35,7 +35,7 @@ public:
     stack<Type_T>& operator = (const stack<Type_T> &src);
 
     //Return if the stack is empty.
-    bool is_empty();
+    bool empty();
 
     //Return the size of the stack.
     unsigned int size();
@@ -50,7 +50,7 @@ public:
     void push(Type_T element);
 
     //Empty the entire stack.
-    void empty();
+    void clear();
 };
 
 #endif //MY_STL_STACK_H

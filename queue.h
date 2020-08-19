@@ -43,7 +43,7 @@ public:
     queue<Type_T>& operator = (const queue<Type_T> &src);
 
     //Return if the queue is empty.
-    bool is_empty();
+    bool empty();
 
     //Return the size of the queue.
     unsigned int size();
@@ -61,7 +61,7 @@ public:
     void push_back(Type_T element);
 
     //Empty the entire queue.
-    void empty();
+    void clear();
 };
 
 #endif //MY_STL_QUEUE_H

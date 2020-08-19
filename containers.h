@@ -7,4 +7,5 @@
 #include "stack.hpp"
 #include "queue.hpp"
 #include "set.hpp"
+#include "map.hpp"
 #endif //MY_STL_CONTAINERS_H

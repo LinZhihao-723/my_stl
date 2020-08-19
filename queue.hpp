@@ -20,13 +20,13 @@ queue<Type_T>::queue(const queue<Type_T> &src) {
 
 template<typename Type_T>
 queue<Type_T>::~queue() {
-    empty();
+    clear();
 }
 
 template<typename Type_T>
 queue<Type_T> &queue<Type_T>::operator=(const queue<Type_T> &src) {
     if(this != &src) {
-        empty();
+        clear();
         head_node = copy_list(src.head_node);
         tail_node = track_tail();
         queue_size = src.queue_size;
@@ -35,7 +35,7 @@ queue<Type_T> &queue<Type_T>::operator=(const queue<Type_T> &src) {
 }
 
 template<typename Type_T>
-bool queue<Type_T>::is_empty() {
+bool queue<Type_T>::empty() {
     return (head_node == nullptr);
 }
 
@@ -69,7 +69,7 @@ void queue<Type_T>::pop_front() {
 template<typename Type_T>
 void queue<Type_T>::push_back(Type_T element) {
     List_Node<Type_T>* temp = new List_Node<Type_T>(element);
-    if(is_empty()) {
+    if(empty()) {
         head_node = tail_node = temp;
     } else {
         tail_node = tail_node->next = temp;
@@ -78,7 +78,7 @@ void queue<Type_T>::push_back(Type_T element) {
 }
 
 template<typename Type_T>
-void queue<Type_T>::empty() {
+void queue<Type_T>::clear() {
     List_Node<Type_T>* temp;
     while(head_node != nullptr) {
         temp = head_node;

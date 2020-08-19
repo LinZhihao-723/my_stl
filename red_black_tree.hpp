@@ -347,9 +347,9 @@ void Red_Black_Tree<Type_T>::print_tree() {
     queue<TreeNode<Type_T>*> first;
     queue<TreeNode<Type_T>*> second;
     first.push_back(root);
-    while(!first.is_empty() || !second.is_empty()) {
-        if(!first.is_empty()) {
-            while(!first.is_empty()) {
+    while(!first.empty() || !second.empty()) {
+        if(!first.empty()) {
+            while(!first.empty()) {
                 auto temp = first.front();
                 first.pop_front();
                 if(temp != nullptr) {
@@ -363,7 +363,7 @@ void Red_Black_Tree<Type_T>::print_tree() {
             }
             std::cout << std::endl;
         } else {
-            while(!second.is_empty()) {
+            while(!second.empty()) {
                 auto temp = second.front();
                 second.pop_front();
                 if(temp != nullptr) {

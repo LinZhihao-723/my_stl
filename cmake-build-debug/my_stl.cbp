@@ -80,12 +80,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/renaissance/Desktop/my_stl_container/RBT_Test.cpp">
-			<Option target="my_stl"/>
-		</Unit>
-		<Unit filename="/Users/renaissance/Desktop/my_stl_container/RBT_Test.h">
-			<Option target="my_stl"/>
-		</Unit>
 		<Unit filename="/Users/renaissance/Desktop/my_stl_container/constant.h">
 			<Option target="my_stl"/>
 		</Unit>
@@ -108,6 +102,12 @@
 			<Option target="my_stl"/>
 		</Unit>
 		<Unit filename="/Users/renaissance/Desktop/my_stl_container/main.cpp">
+			<Option target="my_stl"/>
+		</Unit>
+		<Unit filename="/Users/renaissance/Desktop/my_stl_container/map.h">
+			<Option target="my_stl"/>
+		</Unit>
+		<Unit filename="/Users/renaissance/Desktop/my_stl_container/map.hpp">
 			<Option target="my_stl"/>
 		</Unit>
 		<Unit filename="/Users/renaissance/Desktop/my_stl_container/queue.h">

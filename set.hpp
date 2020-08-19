@@ -29,7 +29,7 @@ set<Type_T> &set<Type_T>::operator=(const set<Type_T> &rhs) {
 }
 
 template<typename Type_T>
-bool set<Type_T>::is_empty() {
+bool set<Type_T>::empty() {
     return rbt_base.is_empty();
 }
 

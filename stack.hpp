@@ -20,11 +20,11 @@ stack<Type_T>::stack(const stack<Type_T> &src) {
 
 template<typename Type_T>
 stack<Type_T>::~stack() {
-    empty();
+    clear();
 }
 
 template<typename Type_T>
-bool stack<Type_T>::is_empty() {
+bool stack<Type_T>::empty() {
     return (top_node == nullptr);
 }
 
@@ -57,7 +57,7 @@ void stack<Type_T>::push(Type_T element) {
 }
 
 template<typename Type_T>
-void stack<Type_T>::empty() {
+void stack<Type_T>::clear() {
     List_Node<Type_T>* temp;
     while(top_node != nullptr) {
         temp = top_node->next;
@@ -70,7 +70,7 @@ void stack<Type_T>::empty() {
 template<typename Type_T>
 stack<Type_T> &stack<Type_T>::operator=(const stack<Type_T> &src) {
     if(this != &src) {
-        empty();
+        clear();
         top_node = copy_list(src.top_node);
         stack_size = src.stack_size;
     }

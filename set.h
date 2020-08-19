@@ -35,7 +35,7 @@ public:
     set<Type_T>& operator=(const set<Type_T>& rhs);
 
     //Return true if the set is empty
-    bool is_empty();
+    bool empty();
 
     //Return the size of the set
     unsigned int size();

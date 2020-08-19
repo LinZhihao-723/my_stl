@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/my_stl.dir/RBT_Test.cpp.o"
   "CMakeFiles/my_stl.dir/guard.cpp.o"
   "CMakeFiles/my_stl.dir/main.cpp.o"
   "my_stl"
