@@ -1,11 +1,9 @@
 //
-// Created by Pleiades Lin on 2020-08-18.
-//
+// Created by Lin Zhihao
 
 #ifndef MY_STL_QUEUE_HPP
 #define MY_STL_QUEUE_HPP
 #include "queue.h"
-#include "guard.h"
 
 template<typename Type_T>
 queue<Type_T>::queue() {

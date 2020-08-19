@@ -12,7 +12,7 @@
 
 #ifndef MY_STL_STACK_H
 #define MY_STL_STACK_H
-#include "linked_list.hpp"
+#include "ground_level_structure_headers.h"
 
 template<typename Type_T>
 class stack{

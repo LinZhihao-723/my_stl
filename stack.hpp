@@ -1,13 +1,10 @@
 //
-// Created by Pleiades Lin on 2020-08-18.
-//
+// Created by Lin Zhihao
 
 #ifndef MY_STL_STACK_HPP
 #define MY_STL_STACK_HPP
 
 #include "stack.h"
-#include "linked_list.hpp"
-#include "guard.h"
 
 template<typename Type_T>
 stack<Type_T>::stack() {

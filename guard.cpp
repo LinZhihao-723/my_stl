@@ -1,6 +1,6 @@
 //
-// Created by Pleiades Lin on 2020-08-18.
-//
+// Created by Lin Zhihao
+
 #include "guard.h"
 #include <iostream>
 

@@ -1,13 +1,10 @@
 //
-// Created by Pleiades Lin on 2020-08-19.
-//
+// Created by Lin Zhihao
 
 #ifndef MY_STL_RED_BLACK_TREE_HPP
 #define MY_STL_RED_BLACK_TREE_HPP
 #include <iostream>
-#include "queue.hpp"
 #include "red_black_tree.h"
-#include "guard.h"
 
 template<typename Type_T>
 bool Red_Black_Tree<Type_T>::is_black(TreeNode<Type_T> *current) {
@@ -344,7 +341,10 @@ unsigned int Red_Black_Tree<Type_T>::size() {
 
 template<typename Type_T>
 void Red_Black_Tree<Type_T>::print_tree() {
-    if(root == nullptr) return;
+    if(root == nullptr) {
+        std::cout << "The tree is empty" << std::endl << std::endl;
+        return;
+    }
     queue<TreeNode<Type_T>*> first;
     queue<TreeNode<Type_T>*> second;
     first.push_back(root);

@@ -1,9 +1,28 @@
 //
-// Created by Pleiades Lin on 2020-08-19.
-//
+// Created by Lin Zhihao
+/*
+ * This file implements a red black tree.
+ * Supported:
+ *  1. Constructor(default, copy), destructor, and "=" operator.
+ *  2. Size of the tree is dynamically recorded.
+ *  3. Insert and Remove operations.
+ *  4. Search a given key.
+ *  Note:
+ *      1. The property of red black tree:
+ *          a. every node is either red or black
+ *          b. root is always black
+ *          c. all leaves are black
+ *          d. if a node is red, then both children must be black
+ *          e. every path from a given node to any of its descendant NIL passes through the same number of black nodes
+ *      2. The key is unique.
+ *      3. The key being stored must support "<" and "==" operations.
+ */
 
 #ifndef MY_STL_RED_BLACK_TREE_H
 #define MY_STL_RED_BLACK_TREE_H
+
+#include "ground_level_structure_headers.h"
+#include "my_stl_container_headers.h"
 
 #define BLACK false
 #define RED true
