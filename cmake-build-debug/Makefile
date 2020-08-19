@@ -123,6 +123,33 @@ my_stl/fast:
 	$(MAKE) -f CMakeFiles/my_stl.dir/build.make CMakeFiles/my_stl.dir/build
 .PHONY : my_stl/fast
 
+guard.o: guard.cpp.o
+
+.PHONY : guard.o
+
+# target to build an object file
+guard.cpp.o:
+	$(MAKE) -f CMakeFiles/my_stl.dir/build.make CMakeFiles/my_stl.dir/guard.cpp.o
+.PHONY : guard.cpp.o
+
+guard.i: guard.cpp.i
+
+.PHONY : guard.i
+
+# target to preprocess a source file
+guard.cpp.i:
+	$(MAKE) -f CMakeFiles/my_stl.dir/build.make CMakeFiles/my_stl.dir/guard.cpp.i
+.PHONY : guard.cpp.i
+
+guard.s: guard.cpp.s
+
+.PHONY : guard.s
+
+# target to generate assembly for a file
+guard.cpp.s:
+	$(MAKE) -f CMakeFiles/my_stl.dir/build.make CMakeFiles/my_stl.dir/guard.cpp.s
+.PHONY : guard.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... my_stl"
+	@echo "... guard.o"
+	@echo "... guard.i"
+	@echo "... guard.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

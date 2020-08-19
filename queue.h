@@ -17,14 +17,17 @@
 template<typename Type_T>
 class queue{
 private:
-    //private pointer: the head of the queue
-    List_Node<Type_T>* front_node;
+    //private pointer: the dummy head of the queue
+    List_Node<Type_T>* head_node;
 
     //private pointer: the tail of the queue
-    List_Node<Type_T>* back_node;
+    List_Node<Type_T>* tail_node;
 
     //recording the size of the queue
     unsigned int queue_size;
+
+    //Helper function: find the tail from the head
+    List_Node<Type_T>* track_tail();
 public:
     //Default constructor.
     queue();
@@ -59,4 +62,5 @@ public:
     //Empty the entire queue.
     void empty();
 };
+
 #endif //MY_STL_QUEUE_H

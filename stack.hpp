@@ -7,6 +7,7 @@
 
 #include "stack.h"
 #include "linked_list.hpp"
+#include "guard.h"
 
 template<typename Type_T>
 stack<Type_T>::stack() {
@@ -37,12 +38,13 @@ unsigned int stack<Type_T>::size() {
 
 template<typename Type_T>
 Type_T stack<Type_T>::top() {
+    check_null_pointer(top_node);
     return top_node->data;
 }
 
 template<typename Type_T>
 void stack<Type_T>::pop() {
-    if(top_node == nullptr) return;
+    check_null_pointer(top_node);
     List_Node<Type_T>* temp = top_node;
     top_node = top_node->next;
     -- stack_size;

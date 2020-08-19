@@ -26,6 +26,4 @@ struct List_Node {
 template<typename Type_T>
 List_Node<Type_T> * copy_list(List_Node<Type_T> *src);
 
-
-
 #endif //MY_STL_LINKED_LIST_H

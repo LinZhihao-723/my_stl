@@ -83,6 +83,12 @@
 		<Unit filename="/Users/renaissance/Desktop/my_stl_container/constant.h">
 			<Option target="my_stl"/>
 		</Unit>
+		<Unit filename="/Users/renaissance/Desktop/my_stl_container/guard.cpp">
+			<Option target="my_stl"/>
+		</Unit>
+		<Unit filename="/Users/renaissance/Desktop/my_stl_container/guard.h">
+			<Option target="my_stl"/>
+		</Unit>
 		<Unit filename="/Users/renaissance/Desktop/my_stl_container/linked_list.h">
 			<Option target="my_stl"/>
 		</Unit>
