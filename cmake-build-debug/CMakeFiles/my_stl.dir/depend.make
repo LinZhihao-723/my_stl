@@ -19,4 +19,6 @@ CMakeFiles/my_stl.dir/main.cpp.o: ../set.h
 CMakeFiles/my_stl.dir/main.cpp.o: ../set.hpp
 CMakeFiles/my_stl.dir/main.cpp.o: ../stack.h
 CMakeFiles/my_stl.dir/main.cpp.o: ../stack.hpp
+CMakeFiles/my_stl.dir/main.cpp.o: ../vector.h
+CMakeFiles/my_stl.dir/main.cpp.o: ../vector.hpp
 

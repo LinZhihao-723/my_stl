@@ -35,23 +35,23 @@ queue<Type_T> &queue<Type_T>::operator=(const queue<Type_T> &src) {
 }
 
 template<typename Type_T>
-bool queue<Type_T>::empty() {
+bool queue<Type_T>::empty() const {
     return (head_node == nullptr);
 }
 
 template<typename Type_T>
-unsigned int queue<Type_T>::size() {
+unsigned int queue<Type_T>::size() const {
     return queue_size;
 }
 
 template<typename Type_T>
-Type_T queue<Type_T>::front() {
+Type_T queue<Type_T>::front() const {
     check_null_pointer(head_node);
     return head_node->data;
 }
 
 template<typename Type_T>
-Type_T queue<Type_T>::back() {
+Type_T queue<Type_T>::back() const {
     check_null_pointer(tail_node);
     return tail_node->data;
 }

@@ -43,16 +43,16 @@ public:
     queue<Type_T>& operator = (const queue<Type_T> &src);
 
     //Return if the queue is empty.
-    bool empty();
+    bool empty() const;
 
     //Return the size of the queue.
-    unsigned int size();
+    unsigned int size() const;
 
     //Return the front of the queue.
-    Type_T front();
+    Type_T front() const;
 
     //Return the back of the queue.
-    Type_T back();
+    Type_T back() const;
 
     //Pop the front node.
     void pop_front();

@@ -134,6 +134,12 @@
 		<Unit filename="/Users/renaissance/Desktop/my_stl_container/stack.hpp">
 			<Option target="my_stl"/>
 		</Unit>
+		<Unit filename="/Users/renaissance/Desktop/my_stl_container/vector.h">
+			<Option target="my_stl"/>
+		</Unit>
+		<Unit filename="/Users/renaissance/Desktop/my_stl_container/vector.hpp">
+			<Option target="my_stl"/>
+		</Unit>
 		<Unit filename="/Users/renaissance/Desktop/my_stl_container/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

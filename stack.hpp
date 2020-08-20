@@ -24,17 +24,17 @@ stack<Type_T>::~stack() {
 }
 
 template<typename Type_T>
-bool stack<Type_T>::empty() {
+bool stack<Type_T>::empty() const {
     return (top_node == nullptr);
 }
 
 template<typename Type_T>
-unsigned int stack<Type_T>::size() {
+unsigned int stack<Type_T>::size() const {
     return stack_size;
 }
 
 template<typename Type_T>
-Type_T stack<Type_T>::top() {
+Type_T stack<Type_T>::top() const {
     check_null_pointer(top_node);
     return top_node->data;
 }

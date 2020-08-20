@@ -56,13 +56,13 @@ public:
 
     //[] operators to access data
     //Return the reference of the key related data
-    Type_data& operator[](const Type_key& key);
+    Type_data& operator[](const Type_key& key) const;
 
     //Return true if the map is empty
-    bool empty();
+    bool empty() const;
 
     //Return the size of the map
-    unsigned int size();
+    unsigned int size() const;
 
     //Return true if inserted successfully
     bool insert(Type_key key, Type_data data);

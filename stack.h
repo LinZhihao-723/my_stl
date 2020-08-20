@@ -35,13 +35,13 @@ public:
     stack<Type_T>& operator = (const stack<Type_T> &src);
 
     //Return if the stack is empty.
-    bool empty();
+    bool empty() const;
 
     //Return the size of the stack.
-    unsigned int size();
+    unsigned int size() const;
 
     //Return the top of the stack.
-    Type_T top();
+    Type_T top() const;
 
     //Pop the top node.
     void pop();

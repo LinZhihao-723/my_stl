@@ -7,22 +7,19 @@
 #include "iostream"
 
 template<typename Type_key, typename Type_data>
-Type_data &map<Type_key, Type_data>::operator[](const Type_key &key) {
+Type_data &map<Type_key, Type_data>::operator[](const Type_key &key) const {
     TreeNode<map_pair<Type_key, Type_data>>* search_result = rbt_base.search(key);
-    if(search_result == nullptr) {
-        std::cout << "Access illegal address!" << std::endl;
-        exit(2);
-    }
+    check_access_violation(search_result);
     return (search_result->data).data;
 }
 
 template<typename Type_key, typename Type_data>
-bool map<Type_key, Type_data>::empty() {
+bool map<Type_key, Type_data>::empty() const {
     return rbt_base.is_empty();
 }
 
 template<typename Type_key, typename Type_data>
-unsigned int map<Type_key, Type_data>::size() {
+unsigned int map<Type_key, Type_data>::size() const {
     return rbt_base.size();
 }
 

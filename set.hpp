@@ -29,12 +29,12 @@ set<Type_T> &set<Type_T>::operator=(const set<Type_T> &rhs) {
 }
 
 template<typename Type_T>
-bool set<Type_T>::empty() {
+bool set<Type_T>::empty() const {
     return rbt_base.is_empty();
 }
 
 template<typename Type_T>
-unsigned int set<Type_T>::size() {
+unsigned int set<Type_T>::size() const {
     return rbt_base.size();
 }
 

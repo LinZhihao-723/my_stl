@@ -35,10 +35,10 @@ public:
     set<Type_T>& operator=(const set<Type_T>& rhs);
 
     //Return true if the set is empty
-    bool empty();
+    bool empty() const;
 
     //Return the size of the set
-    unsigned int size();
+    unsigned int size() const;
 
     //clear all the elements in the set
     void clear();
