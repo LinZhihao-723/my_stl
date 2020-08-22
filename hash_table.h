@@ -10,7 +10,7 @@
  *  4. Automatically rehash based on the hash policy
  *  5. Allow users to reserve the bucket size
  *  Note:
- *  The key type must has its "==" operator defined.
+ *  The key type must have its "==" operator defined.
  *  Rehash policy:
  *      load factor = size of table / size of bucket
  *      When load factor is greater than the pre-defined maximum load factor
