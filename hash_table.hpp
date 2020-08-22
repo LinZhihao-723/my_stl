@@ -1,5 +1,6 @@
 //
 // Created by Lin Zhihao
+/*"一剑统治怜悯，一剑送葬绝望"*/
 
 #ifndef MY_STL_HASH_TABLE_HPP
 #define MY_STL_HASH_TABLE_HPP

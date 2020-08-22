@@ -1,5 +1,6 @@
 //
 // Created by Lin Zhihao
+/*"随他陨落，随他沉沦，引他重返千年之盛"*/
 
 #ifndef MY_STL_RED_BLACK_TREE_HPP
 #define MY_STL_RED_BLACK_TREE_HPP

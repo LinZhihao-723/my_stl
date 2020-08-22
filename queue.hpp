@@ -1,5 +1,6 @@
 //
 // Created by Lin Zhihao
+/*"此生不相见，动如参与商"*/
 
 #ifndef MY_STL_QUEUE_HPP
 #define MY_STL_QUEUE_HPP

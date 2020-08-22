@@ -1,6 +1,5 @@
 //
-// Created by Pleiades Lin on 2020-08-20.
-//
+// Created by Lin Zhihao
 
 #ifndef MY_STL_PAIR_H
 #define MY_STL_PAIR_H

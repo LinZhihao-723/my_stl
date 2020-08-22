@@ -1,5 +1,6 @@
 //
 // Created by Lin Zhihao
+/*"美与丑，善与恶，仅在一念之间"*/
 
 #ifndef MY_STL_VECTOR_HPP
 #define MY_STL_VECTOR_HPP

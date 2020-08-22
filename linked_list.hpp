@@ -1,5 +1,6 @@
 //
 // Created by Lin Zhihao
+/*"烽火燃不息，征战无已时"*/
 
 #ifndef MY_STL_LINKED_LIST_HPP
 #define MY_STL_LINKED_LIST_HPP
