@@ -9,4 +9,6 @@
 #include "queue.hpp"
 #include "set.hpp"
 #include "map.hpp"
+#include "unordered_map.hpp"
+#include "priority_queue.hpp"
 #endif //MY_STL_CONTAINERS_H
