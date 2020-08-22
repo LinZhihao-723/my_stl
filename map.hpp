@@ -29,7 +29,7 @@ bool map<Type_key, Type_data>::insert(Type_key key, Type_data data) {
 }
 
 template<typename Type_key, typename Type_data>
-bool map<Type_key, Type_data>::erase(Type_key key) {
+bool map<Type_key, Type_data>::erase(const Type_key& key) {
     return rbt_base.remove(key);
 }
 

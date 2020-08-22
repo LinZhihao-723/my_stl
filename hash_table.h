@@ -21,6 +21,7 @@
 #ifndef MY_STL_HASH_TABLE_H
 #define MY_STL_HASH_TABLE_H
 #include "pair.h"
+#include "linked_list.h"
 #include "hash_constant.h"
 #include <iostream>
 

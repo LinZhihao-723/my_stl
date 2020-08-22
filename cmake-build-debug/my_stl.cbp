@@ -125,6 +125,12 @@
 		<Unit filename="/Users/renaissance/Desktop/my_stl_container/pair.h">
 			<Option target="my_stl"/>
 		</Unit>
+		<Unit filename="/Users/renaissance/Desktop/my_stl_container/priority_queue.h">
+			<Option target="my_stl"/>
+		</Unit>
+		<Unit filename="/Users/renaissance/Desktop/my_stl_container/priority_queue.hpp">
+			<Option target="my_stl"/>
+		</Unit>
 		<Unit filename="/Users/renaissance/Desktop/my_stl_container/queue.h">
 			<Option target="my_stl"/>
 		</Unit>
@@ -147,6 +153,12 @@
 			<Option target="my_stl"/>
 		</Unit>
 		<Unit filename="/Users/renaissance/Desktop/my_stl_container/stack.hpp">
+			<Option target="my_stl"/>
+		</Unit>
+		<Unit filename="/Users/renaissance/Desktop/my_stl_container/unordered_map.h">
+			<Option target="my_stl"/>
+		</Unit>
+		<Unit filename="/Users/renaissance/Desktop/my_stl_container/unordered_map.hpp">
 			<Option target="my_stl"/>
 		</Unit>
 		<Unit filename="/Users/renaissance/Desktop/my_stl_container/vector.h">

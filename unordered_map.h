@@ -1,9 +1,9 @@
 //
 // Created by Lin Zhihao
 /*
- * This file implements a map template.
- * Base: red black tree.
- * Data will be stored in a red black tree, sorted by the unique key.
+ * This file implements an unordered map template.
+ * Base: hash table.
+ * Data will be stored in a hash table, sorted by the unique key.
  * Supported:
  *  1. [] operator to directly access data
  *  2. Insert/erase elements from the map
@@ -11,20 +11,17 @@
  *  The key type must have its "==" operator defined.
  */
 
-#ifndef MY_STL_MAP_H
-#define MY_STL_MAP_H
-#include <iostream>
-#include "red_black_tree.hpp"
-#include "pair.h"
+#ifndef MY_STL_UNORDERED_MAP_H
+#define MY_STL_UNORDERED_MAP_H
+#include "hash_table.hpp"
 
 template<typename Type_key, typename Type_data>
-class map{
+class unordered_map{
 private:
-    Red_Black_Tree<pair<Type_key, Type_data>> rbt_base;
-    void print() const;
+    hash_table<Type_key, Type_data> _hash_table;
 public:
     //Default constructor
-    map() = default;
+    unordered_map() = default;
 
     //[] operators to access data
     //Return the reference of the key related data
@@ -50,4 +47,4 @@ public:
     Type_data* find(const Type_key& key) const;
 };
 
-#endif //MY_STL_MAP_H
+#endif //MY_STL_UNORDERED_MAP_H
