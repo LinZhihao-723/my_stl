@@ -17,7 +17,7 @@ struct List_Node {
     List_Node() {
         next = nullptr;
     }
-    List_Node(Type_T src) {
+    List_Node(const Type_T& src) {
         data = src;
         next = nullptr;
     }

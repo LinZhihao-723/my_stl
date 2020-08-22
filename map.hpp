@@ -8,7 +8,7 @@
 
 template<typename Type_key, typename Type_data>
 Type_data &map<Type_key, Type_data>::operator[](const Type_key &key) const {
-    TreeNode<map_pair<Type_key, Type_data>>* search_result = rbt_base.search(key);
+    TreeNode<pair<Type_key, Type_data>>* search_result = rbt_base.search(key);
     check_access_violation(search_result);
     return (search_result->data).data;
 }
@@ -39,12 +39,12 @@ void map<Type_key, Type_data>::clear() {
 }
 
 template<typename Type_key, typename Type_data>
-Type_data *map<Type_key, Type_data>::find(const Type_key &key) {
+Type_data *map<Type_key, Type_data>::find(const Type_key &key) const {
     return rbt_base.search(key);
 }
 
 template<typename Type_key, typename Type_data>
-void map<Type_key, Type_data>::print() {
+void map<Type_key, Type_data>::print() const {
     rbt_base.print_tree();
 }
 
